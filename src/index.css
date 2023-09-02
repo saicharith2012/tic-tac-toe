@@ -1,3 +1,101 @@
-.first{
-    font-family: 'Courier New', Courier, monospace;
+body{
+    height: 100vh;
+    margin: 0px;
+    width: 100vw;
+    background-color: #C0D9D9;    
+}
+
+#root{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+    font-size: 70px;
+    text-align: center;
+    padding: 11px 10px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    background-color: #8FB5B5;
+}
+
+.tictactoe{
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+
+.game{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+}
+
+
+.board{
+    display:flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 50px;
+}
+
+.row{
+    width: fit-content;
+}
+
+.status{
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+
+.square{
+    background-color: black;
+    color: #C0D9D9;
+    font-size: 75px;
+    font-family: 'Black Ops One', cursive;
+    border: 1px solid ;
+    float: left;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+.info{
+    width: 50%;
+    display: flex;
+    position:relative;
+}
+
+.moves{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+}
+
+.move{
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
 }
